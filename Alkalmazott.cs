@@ -4,7 +4,7 @@ using System.Text;
 
 namespace cegapp
 {
-    internal class Alkalmazott
+    public class Alkalmazott
     {
         public string Nev { get; set; }
         protected int Alapber { get; set; }
@@ -20,7 +20,6 @@ namespace cegapp
         public override string ToString()
         {
             return $"Név: {Nev}, Fizetés: {FizetesSzamitas()} Ft";
-
         }
     }
 }
