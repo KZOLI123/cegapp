@@ -8,7 +8,7 @@ namespace cegapp
     {
         public string Nev { get; set; }
         protected int Alapber { get; set; }
-        Alkalmazott(string nev, int alapber)
+        public Alkalmazott(string nev, int alapber)
         {
             Nev = nev;
             Alapber = alapber;
